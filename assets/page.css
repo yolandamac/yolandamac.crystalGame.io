@@ -1,0 +1,118 @@
+body {  
+    
+    font-family:sans-serif;
+    font-weight:bold; 
+    font-size:16pt;
+}
+
+.jumbotron{
+    font-family: Papyrus, fantasy;
+}
+
+h1 .text-center{
+    color: purple;
+}
+
+/*.letterSection {
+    height:210px;    
+}*/
+.statusSection{
+    background:#f1f1f1;
+    height:auto;
+}
+
+.side-container {
+    margin-top:125px;
+    margin-left:400px;
+    width:250px;
+    text-align:center;
+}
+.yourScore-title {
+    color:#743554;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.input-area {
+    background:#d2a5bc;
+    border:1px #6f5a2d solid;
+    height:75px;
+    padding:10pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    font-size: xx-large;
+}
+
+.matchPointsBox-title {
+    color:#743554;
+    font-size: x-large;
+    margin-top: -75px;
+}
+
+.matchPoints-box {
+    width:250px;
+    margin:auto;
+    margin-top:25px;
+    text-align:center;
+}
+.matchPoints-display {
+    background:#d2a5bc;
+    border:1px #6f5a2d solid;
+    height:75px;
+    padding:10pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    font-size: xx-large;
+}
+.wins-title {
+    color:#743554;
+    font-size: x-large;
+    margin-top: -20px;
+}
+.wins {
+    width:250px;
+    margin:auto;
+    margin-top: 50px;
+    text-align:center;
+}
+.total-wins {
+    background:#d2a5bc;
+    border:1px #6f5a2d solid;
+    height:75px;
+    padding:10pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    font-size: xx-large;
+}
+.losses-title {
+    color:#743554;
+    font-size: x-large;
+    margin-top: 50px;
+}
+.lossesSection {
+    width:250px;
+    margin:auto;
+    text-align:center;
+}
+.losses {
+    background:#d2a5bc;
+    border:1px #6f5a2d solid;
+    height:75px;
+    padding:10pt;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    font-size: xx-large;
+}
+
+
+.hang-container {
+    margin-top:-50px;
+    margin-right: 400px; 
+    width:200px;
+    height:205px;
+    float:right;
+}
+

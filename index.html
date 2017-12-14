@@ -1,0 +1,79 @@
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/page.css">
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+<body>
+
+      <div class="jumbotron">
+
+    <h1 class="text-center">Welome to Crystal Collector!</h1>
+
+    <div class="text-center">
+
+    	<p> Click a crystal image to collect the points associated with that crystal. </p>
+    	<p> The goal is to match <strong>your</strong> points with the "Points to Match" score </p>
+    	<p> Good Luck and Happy Crystal Collecting!</p>
+
+    <input type="image" id="crystal1" style="height:200px;width:200px;" src="assets/images/crystal2.jpg" />
+    <input type="image" id="crystal2" style="height:200px;width:200px;" src="assets/images/crystal3.jpg" />
+    <input type="image" id="crystal3" style="height:200px;width:200px;" src="assets/images/crystal10.jpg" />
+    <input type="image" id="crystal4" style="height:200px;width:200px;" src="assets/images/crystal9.jpg" />
+
+    </div>
+
+    <div class='letterSection'> 
+      <div class='hang-container'>
+
+      	    <div class='lossesSection'>
+            <div class='losses-title'>Losses</div>
+            <div class='losses' id='lossesTotal'>
+            </div>
+        </div>
+
+
+         <div class='wins'>
+            <div class='wins-title'>Wins</div>
+            <div class='total-wins' id='totalWins'>
+            </div>
+        </div>
+
+    
+        <div class='draw-section'>
+          <div class='noose'></div>
+        </div>
+    
+        <div class='hanger-base'></div>
+      </div>
+
+    
+      <div class='side-container'>
+
+      	    <div class='matchPoints-box'>
+            <div class='matchPointsBox-title'>Points to Match</div>
+            <div class='matchPoints-display'>
+            </div>
+        </div>
+
+        <div class='yourScore-title'>Your Total Score</div>
+        <div id="yourCurrentScore" class='input-area'></div>
+      </div>
+    </div>
+
+    <div class='statusSection'>
+
+
+            </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/crystal_game.js"></script>
+
+	</body>
+</html>
+
